@@ -105,3 +105,25 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+
+namespace:
+  name: default
+
+services:
+  name: blue-service
+  label: blue-app
+  port: 8080
+  targetPort: 8080
+
+
+deployments:
+  name: blue-app
+  label: blue-app
+  replicas: 2
+  container:
+    name: my-blue-app
+    image: adamtravis/rollouts:blue
+    ports:
+      name: http
+      containerPort: 8080
