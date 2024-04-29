@@ -3,12 +3,12 @@ entries:
   blue-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-28T21:29:29.116101-04:00"
+    created: "2024-04-28T22:04:30.2360066-04:00"
     description: A Helm chart for Kubernetes
-    digest: c51c9eb48509d5ce288fed0076c7dddd8604512c17f0de0d76492526bbee16b6
+    digest: 82144326e1cda78d36ccc5c885235b410d1cdaf01071a277db23734be2e7b3ec
     name: blue-app
     type: application
     urls:
     - blue-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-28T21:29:29.1122388-04:00"
+generated: "2024-04-28T22:04:30.2360066-04:00"
